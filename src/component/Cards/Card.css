@@ -1,0 +1,20 @@
+.zoomingCard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.zoomingCard {
+  transition: transform 0.2s;
+}
+
+.heart:active {
+  transition: transform 0.2s;
+  transform: scale(0.1);
+}
+.row {
+  margin-left: 40px !important;
+}
+
+.px-5 {
+  padding-right: 6rem !important;
+  padding-left: 3rem !important;
+}

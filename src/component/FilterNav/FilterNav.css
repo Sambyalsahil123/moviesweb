@@ -1,0 +1,82 @@
+.filter_nav_cover {
+  background: #151f30;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  margin: 1rem;
+  align-items: center;
+  border-radius: 1.2rem;
+  padding: 0.5rem;
+}
+
+.dropDown_div {
+  display: flex;
+  margin: 0.2rem;
+}
+
+.select {
+  background: #151f30;
+  border: none;
+  color: white;
+  width: 101px;
+  margin-left: 0.8rem;
+}
+
+.select:hover {
+  color: rgb(88, 88, 245);
+  transition: all 0.3s;
+}
+
+.select:focus {
+  outline: 0;
+}
+
+
+.radio_div {
+  background: #131720;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  border-radius: 1rem;
+}
+
+.label {
+  cursor: pointer;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+.label:hover {
+  color: rgb(88, 88, 245);
+  transition: all 0.3s;
+}
+
+.label input[type="radio"] {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .filter_nav_cover {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .radio_div {
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    margin-top: 0.5rem;
+  }
+}

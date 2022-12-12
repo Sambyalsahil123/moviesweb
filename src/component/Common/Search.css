@@ -1,0 +1,7 @@
+.search {
+  border-radius: 40px !important;
+}
+.bi-search::before {
+  content: "\f52a";
+  margin-left: 5px;
+}

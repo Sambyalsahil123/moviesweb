@@ -1,0 +1,16 @@
+.slick-slide img {
+  display: block;
+  width: 110%;
+  height: 450px;
+  border-radius: 55px;
+}
+.zooming {
+  padding: 50px;
+  transition: transform 0.2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.zooming:hover {
+  transform: scale(1.1);
+}
