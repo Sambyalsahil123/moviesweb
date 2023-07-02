@@ -12,7 +12,8 @@ const Overview = () => {
           height: "100vh",
           backgroundPosition: "center",
           backgroundSize: "cover",
-        }}>
+        }}
+      >
         <Navigation />
         <div className="m-5 ">
           <p className="fs-1 text-danger">Flix TV</p>

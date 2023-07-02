@@ -32,7 +32,7 @@ function Signup() {
         "userSignUp",
         JSON.stringify([...data, { ...inputData, isAdmin }])
       );
-   
+
       navigate("/dashboard");
     } else if (password !== confirmpassword) {
       toast.warn("Password should be same !", {
@@ -154,7 +154,6 @@ function Signup() {
                 Submit
               </button>
             </div>
-      
           </div>
         </form>
       </div>

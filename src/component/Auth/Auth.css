@@ -8,8 +8,8 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background: url(https://dmitryvolkov.me/demo/flixtv/main/img/bg.jpg) center
-    center / cover no-repeat;
+  background: url(https://cdn.pixabay.com/photo/2019/11/07/20/48/cinema-4609877__480.jpg)
+    center center / cover no-repeat;
 }
 
 .Auth-form {
